@@ -1,6 +1,22 @@
 body {
-  background-color: white;
-  background-repeat: no-repeat;
+  font-family: "Caveat", serif;
+  background: white;
   background-attachment: fixed; 
   background-size: 100% 100%;
+  height: 100%;
+}
+
+#logoImg {
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 50%; 
+  margin-right: 50%; 
 }
