@@ -2,8 +2,10 @@ body {
   font-family: "Caveat", serif;
   background: white;
   background-attachment: fixed; 
-  background-size: 100% 100%;
-  height: 100%;
+  background-position: top;
+  background-repeat: repeat-x;
+  width: 100%;
+  margin: 0%;
 }
 
 #logoImg {
@@ -21,38 +23,6 @@ body {
   margin-right: 50%; 
 }
 
-.button-yellow {
-  transition-duration: 0.4s;
-  border-radius: 20px;
-  border: 2px solid #FF9700;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.button-black {
-  transition-duration: 0.4s;
-  border-radius: 20px;
-  border: 2px solid black;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 .text-yellow {
   color: #FF9700;
-}
-
-.button-black:hover {
-  background-color: black;
-  color: white;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.button-yellow:hover {
-  background-color: #FF9700;
-  color: white;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }

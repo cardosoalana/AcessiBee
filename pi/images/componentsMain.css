@@ -27,10 +27,123 @@
     color: white;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
+  
 .button-yellow:hover {
     background-color: #FF9700;
     color: white;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+.logoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.welcome-title {
+    font-family: "Caveat", serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inputBox {
+    margin: 5%;
+    position: relative;
+    width: auto;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 2%;
+    outline: none;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+.inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 2%;
+    pointer-events: none;
+    font-size: 1em;
+    color: black;
+    transition: 0.5s;
+}
+
+.inputBox input:valid ~span,
+.inputBox input:focus ~span {
+    color: #FF9700;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.75em;
+    padding: 0 2%;
+    background: white;
+    border-left: 1px solid #FF9700;
+    border-right: 1px solid #FF9700;
+    letter-spacing: 0.2em;
+}
+
+.inputBox input:valid,
+.inputBox input:focus {
+    border: 1px solid #FF9700;
+}
+
+.password-field {
+    letter-spacing: 0.1em;
+}
+
+i {
+    position: absolute;
+    margin: 12px 0 0 -45px;
+    color: gray;
+    cursor: pointer;
+}
+
+
+.button-full-black {
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 90%;
+    margin: 5%;
+  }
+
+.button-full-black:hover {
+    background-color: #FF9700;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.register-button {
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+
+.font {
+    font-family: "Caveat", serif;
+}
+
+.register-button:hover,
+.forgot-password:hover {
+    text-shadow: 2px 2px 5px gray;
+}
+
+.button-register {
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
