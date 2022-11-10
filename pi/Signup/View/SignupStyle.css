@@ -68,7 +68,7 @@ body{
     height: 50px;
     width: 350px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -80,42 +80,4 @@ body{
     color: #101010;
     cursor: pointer;
     transition: 0.3s;
-}
-
-.container span{
-    font-weight: bold;
-}
-
-.container .forgot{
-    font-size: 14px;
-    display: block;
-    margin-left: 180px;
-    margin-top: -16px;
-}
-
-.container .forgot:hover{
-    cursor: pointer;
-    transform: translateY(-1px);
-}
-
-.container span:nth-of-type(2){
-    display: block;
-    margin-top: 20px;
-    font-size: 16px;
-}
-
-.container span:nth-of-type(3){
-    margin-left: 2px;
-}
-
-.container a{
-    font-weight: bold;
-    text-decoration: underline;
-    transition: 0.2s;
-    color: #101010;
-}
-
-.container a:hover{
-    cursor: pointer;
-    color: #FF9700;
 }

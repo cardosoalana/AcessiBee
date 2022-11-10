@@ -1,28 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
 body {
-  font-family: "Caveat", serif;
-  background: white;
-  background-attachment: fixed; 
-  background-position: top;
-  background-repeat: repeat-x;
-  width: 100%;
-  margin: 0%;
+  background-image: url("../../images/back-white.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 30px;
 }
 
-#logoImg {
-  display: block;
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#title {
-  display: inline-block;
+.image{
   text-align: center;
-  font-weight: bold;
-  margin-left: 50%; 
-  margin-right: 50%; 
+  margin-bottom: 30px;
 }
 
-.text-yellow {
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.btn1,
+.btn2{
+  border: none;
+  background: none;
+  margin: 0 20px;
+}
+
+.btn1 a:hover{
+  background-color: #FF9700;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn1 a{
+  padding: 16px 100px;
+  border: 2px solid #FF9700;
   color: #FF9700;
+  border-radius: 30px;
+  background: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.btn2 a:hover{
+  background-color: #101010;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn2 a{
+  padding: 16px 85px;
+  border: 2px solid #101010;
+  color: #101010;
+  border-radius: 30px;
+  background: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
 }
