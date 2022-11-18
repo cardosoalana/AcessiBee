@@ -42,9 +42,11 @@ header .left a{
     font-size: 20px;
     position: relative;
     top: -30px;
+    text-decoration: none;
+    color: #101010;
 }
 
-header .left .report:hover{
+header .left .navigate:hover{
     cursor: pointer;
     color: white;
     transition: .3s;
@@ -81,7 +83,7 @@ header .right:hover{
     transform: translateY(-2px);
 }
 
-/* SESSÃO CARDS */
+/* SESSÃO 'CARDS' */
 .cards{
  padding: 30px; 
 }

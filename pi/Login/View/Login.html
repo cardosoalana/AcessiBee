@@ -28,7 +28,6 @@
                     <input id="password" type="password" placeholder="Senha"/> 
                 </div> <!-- passwordContainer -->    
             </form>
-            <span class="forgot">Esqueceu a senha?</span>
             <button>Entrar</button>
             <span>ou</span>
             <span><a href="../../Signup/View/Signup.html">Cadastre-se</a> gratuitamente</span>
@@ -42,7 +41,6 @@
             togglePassword.addEventListener("click", function () {
             const type = password.getAttribute("type") === "password" ? "text" : "password";
             password.setAttribute("type", type);
-            this.classList.toggle("fa-regular fa-eye-slash");
             });
         </script>
         
