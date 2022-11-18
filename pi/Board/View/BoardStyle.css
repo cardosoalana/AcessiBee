@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.clear{
+    clear: both;
+}
+
+/* HEADER */
+header{
+    background-color: #FCCE22;
+    padding: 10px 40px;
+}
+
+header img{
+    margin-right: 15px;
+}
+
+header .left{
+    float: left;
+}
+
+header .left .selected{
+    display: inline-block
+}
+
+header .left .line{
+    height: 3px;
+    width: 60px;
+    background-color: #101010;
+    position: relative;
+    top: -30px;
+    left: 18px;
+}
+
+header .left a{
+    margin: 0 16px;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+}
+
+header .left .report:hover{
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+}
+
+header .left .dot{
+    font-size: 10px;
+    position: relative;
+    top: -32px;
+}
+
+header .right{
+    float: right;  
+}
+header .right a{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header .right i{
+    color: white;
+    font-size: 18px;
+    margin-left: 1px;
+    position: relative;
+    top: 20px; 
+}
+
+header .right:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+/* SESSÃO CARDS */
+.cards{
+ padding: 30px; 
+}
+
+.card-row{
+    display: flex;
+    justify-content: center;
+}
+
+.card-single{
+    text-align: center;
+    border: 2px solid #101010;
+    border-radius: 10%;
+    padding: 20px 15px 0 15px;
+    margin:  15px;
+    width: 230px;
+    height: 250px;
+    color: #101010;
+}
+
+.card-single:hover{
+    cursor: pointer;
+    background-color: #FCCE22;
+    color: white;
+    border: 2px solid #FCCE22;
+    transition: 0.2s;
+}
+
+.card-single p{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
