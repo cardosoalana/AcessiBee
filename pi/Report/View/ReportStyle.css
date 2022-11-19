@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.clear{
+    clear: both;
+}
+
+/* HEADER */
+header{
+    background-color: #FCCE22;
+    padding: 10px 40px;
+}
+
+header img{
+    margin-right: 15px;
+}
+
+header .left{
+    float: left;
+}
+
+header .left .selected{
+    display: inline-block
+}
+
+header .left .line{
+    height: 3px;
+    width: 60px;
+    background-color: #101010;
+    position: relative;
+    top: -30px;
+    left: 18px;
+}
+
+header .left a{
+    margin: 0 16px;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+    text-decoration: none;
+    color: #101010;
+}
+
+header .left .navigate:hover{
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+}
+
+header .left .dot{
+    font-size: 10px;
+    position: relative;
+    top: -32px;
+}
+
+header .right{
+    float: right;  
+}
+header .right a{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header .right i{
+    color: white;
+    font-size: 18px;
+    margin-left: 1px;
+    position: relative;
+    top: 20px; 
+}
+
+header .right:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+/* SESSÃO 'REPORT' */
+.report{
+    padding: 30px;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 170px;
+}
+
+.data{
+    border: 3px dotted #101010;
+    border-radius: 1%;
+    padding: 20px 40px;
+    overflow: hidden;
+    max-height: 500px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ff6b97 #070d12;
+}
+
+.data-single{
+    border-bottom: 3px dotted #101010;
+    padding-bottom: 5px;
+    margin-top: 26px;
+}
+
+.data-single h2{
+    font-size: 20px;
+}
+
+.data-single p{
+    font-size: 18px;
+}
+
+.data-single:first-of-type{
+    margin-top: 10px;
+}
+
+.data-single:last-of-type{
+    border: none;
+    margin-bottom: 5px;
+}
