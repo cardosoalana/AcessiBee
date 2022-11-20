@@ -83,8 +83,6 @@ header .right:hover{
     transform: translateY(-2px);
 }
 
-
-
 /* SESSÃO 'CARDS' */
 .cards{
     display: grid;
