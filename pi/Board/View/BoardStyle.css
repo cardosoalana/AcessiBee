@@ -83,9 +83,13 @@ header .right:hover{
     transform: translateY(-2px);
 }
 
+
+
 /* SESSÃO 'CARDS' */
 .cards{
- padding: 30px; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px; 
 }
 
 .card-row{
@@ -117,3 +121,16 @@ header .right:hover{
     font-size: 24px;
     margin-bottom: 20px;
 }
+
+.card-single img {
+    padding: 10%;
+}
+
+.models {
+    display:none;
+}
+
+
+
+
+
