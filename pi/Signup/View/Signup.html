@@ -22,14 +22,14 @@
             <h2>Cadastre-se!</h2>
 
             <form>
-                <input type="text" placeholder="Usuário"/>
-                <input type="email" placeholder="E-mail"/>
+                <input type="text" id="name" placeholder="Usuário"/>
+                <input type="email" id="email" placeholder="E-mail"/>
                 <div class="passwordContainer">
                     <i class="fa-regular fa-eye visibility" id="togglePassword"></i>
                     <input id="password" type="password" placeholder="Senha"/> 
                 </div> <!-- passwordContainer -->    
             </form>
-            <button>Cadastrar</button>
+            <button id="button">Cadastrar</button>
         </div> <!-- container -->
 
         <!-- SCRIPTS -->
@@ -43,6 +43,9 @@
             this.classList.toggle("fa-regular fa-eye-slash");
             });
         </script>
+
+        <script type="module" src="../ViewModel/ViewModelSignup.js"></script>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
         <script src="main.js"></script>

@@ -57,13 +57,13 @@ async function reportCAA(nameStr, timeStr) {
         name: nameStr,
         time: timeStr
     });
- }
+}
 
- function formatDate(date) {
+function formatDate(date) {
     var hours = date.getHours();
     var minutes = date.getMinutes();
     var hours = date.getHours();
     minutes = minutes < 10 ? '0'+minutes : minutes;
     var strTime = hours + ':' + minutes;
     return strTime + ",  " + (date.getMonth()+1) + "/" + date.getDate() + "/" + date.getFullYear();
-  }
+}
