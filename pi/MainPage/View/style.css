@@ -5,21 +5,30 @@
   font-family: 'Open Sans';
 }
 
-body {
+/* body {
   background-image: url("../../images/back-white.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
   padding: 30px;
-}
+} */
 
-.image{
+/* SESSÃO HEADER */
+header{
   text-align: center;
-  margin-bottom: 30px;
+  padding-bottom: 100px;
 }
 
-.buttons{
+header p{
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: -10px;
+  font-size: 18px;
+}
+
+header .buttons{
   display: flex;
   justify-content: center;
 }
@@ -28,7 +37,14 @@ body {
 .btn2{
   border: none;
   background: none;
-  margin: 0 20px;
+}
+
+.btn1{
+  margin-right: 10px;
+}
+
+.btn2{
+  margin-left: 10px;
 }
 
 .btn1 a:hover{
@@ -65,4 +81,54 @@ body {
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
+}
+
+/* SESSÃO 'ABOUT' */
+section.about{
+  display: flex;
+  justify-content: center;
+  background-color: #FCCE22;
+  padding-top: 30px;
+  align-items: center;
+}
+
+.about .text{
+  width: 40%;
+  margin: 0 20px;
+}
+
+.about .text h2{
+  font-size: 34px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.text p{
+  line-height: 26px;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+}
+
+/* SESSÃO 'TEAM' */
+section.team{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 180px;
+  align-items: center;
+  background-image: url("../../images/back-white.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.team .text{
+  width: 20%;
+  margin: 0 20px;
+}
+
+.team .text h2{
+  font-size: 34px;
+  color: #FF9700;
+  margin-bottom: 20px;
 }
