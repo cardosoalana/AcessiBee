@@ -124,3 +124,7 @@ header .right:hover{
     border: none;
     margin-bottom: 5px;
 }
+
+.models {
+    display: none;
+}
