@@ -35,7 +35,7 @@ const cs = (el) => document.querySelectorAll(el);
 reportModelJson.map((item) => {
     let modelsItem = c(".models .data-single").cloneNode(true);
     modelsItem.querySelector(".data-name").innerHTML = item.name;
-    modelsItem.querySelector(".data-time").src = item.img;
+    modelsItem.querySelector(".data-time").innerHTML = item.time;
 
     c(".report").append(modelsItem);
 });
