@@ -15,8 +15,11 @@ header{
     padding: 10px 40px;
 }
 
-header img{
+header .left .image{
+    margin: 0;
     margin-right: 15px;
+    position: relative;
+    top: 0;
 }
 
 header .left{
@@ -87,19 +90,16 @@ header .right:hover{
 .report{
     padding: 30px;
     width: 70%;
-    margin: 0 auto;
-    padding-bottom: 170px;
+    margin: 50px auto;
+    border: 3px dotted #101010;
 }
 
 .data{
-    border: 3px dotted #101010;
     border-radius: 1%;
     padding: 20px 40px;
     overflow: hidden;
     max-height: 500px;
     overflow-y: auto;
-    scrollbar-width: thin;
-    scrollbar-color: #ff6b97 #070d12;
 }
 
 .data-single{

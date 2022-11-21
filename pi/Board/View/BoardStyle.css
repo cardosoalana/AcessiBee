@@ -15,8 +15,11 @@ header{
     padding: 10px 40px;
 }
 
-header img{
+header .left .image{
+    margin: 0;
     margin-right: 15px;
+    position: relative;
+    top: 0;
 }
 
 header .left{
@@ -87,7 +90,7 @@ header .right:hover{
 .cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 30px; 
+    padding: 30px;
 }
 
 .card-row{
