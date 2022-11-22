@@ -54,9 +54,7 @@ confirmButton.addEventListener("click", function() {
             } else {
                 showMessage("senha incorreta")
             }
-        } else {
-            showMessage("email incorreto")
-        }
+        } 
     });
 });
 

@@ -25,16 +25,20 @@ querySnapshot.forEach((doc) => {
         "name": doc.data().name,
         "audio": doc.data().audio,
         "img": doc.data().img});
-       
 });
 
+console.log(caaModel);
 const c = (el) => document.querySelector(el);
 const cs = (el) => document.querySelectorAll(el);
 
 var caaModelJson =JSON.parse(JSON.stringify(caaModel));
 caaModelJson.map((item) => {
     let modelsItem = c(".models .card-single").cloneNode(true);
-    modelsItem.querySelector(".card-name").innerHTML = item.name;
+    if (item.name == null) {
+        modelsItem.querySelector(".card-name").innerHTML = "Camisa";
+    } else {
+        modelsItem.querySelector(".card-name").innerHTML = item.name;
+    }
     modelsItem.querySelector(".card-img").src = item.img;
 
     var a = new Audio(item.audio);
